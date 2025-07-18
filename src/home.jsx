@@ -59,10 +59,13 @@ export function App() {
 
   return (
     <div className="app">
-      <h1 className="gradient-title">🌸 AI Anime Agents 🌸</h1>
+      <h1 className="gradient-title">🌸 Virtual Anime Agents  🌸</h1>
       <p className="subtitle">Choose one and get greeted in style...</p>
       <div className="w100 df aic jcc">
-        <button className="df aic gap-15 button-55">
+        <button
+          className="df aic gap-15 button-55"
+          onClick={() => window.open("https://x.com/virtuals_anime", "_blank")}
+        >
           Follow Us On <RiTwitterXFill />
         </button>
       </div>
